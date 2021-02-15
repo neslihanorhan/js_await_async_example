@@ -49,10 +49,6 @@ window.addEventListener("load", () => {
     setListeners();
     loadPosts();
     loadCategories();
-
-    fetch("http://localhost:8080/hh").then(res => {
-        console.log(res)
-    })
 });
 
 
